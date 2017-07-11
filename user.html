@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://rqtt.laiduihuan.cn/home/index -->
+<html lang="en" style="font-size: 33.6px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>个人中心</title>
+    <link rel="stylesheet" type="text/css" href="./img/style.css">
+    <script type="text/javascript" src="./img/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./img/js.js"></script>
+    <style type="text/css">
+        .lz-RedBag-close {
+            top: 6rem;
+        }
+
+        .lz-urs-detail {
+            margin-bottom: 1.5rem;
+        }
+
+        .lz-footer {
+            margin: 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .lz-footer ul {
+            width: 100%;
+            background: #fff;
+            display: flex;
+            display: -webkit-flex;
+            justify-content: space-between;
+            -webkit-justify-content: space-between;
+            padding-left: 0.5rem;
+        }
+
+        .lz-footer ul li {
+            width: auto;
+            margin: 0 .45rem;
+            padding: 0.2rem 0 0.2rem;
+        }
+
+        .lz-footer ul li a {
+            display: block;
+            height: 100%;
+        }
+
+        .lz-footer li i {
+            display: inline-block;
+            width: 0.55rem;
+            height: 0.67rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            top: 0.42rem;
+            box-sizing: border-box;
+        }
+
+        .lz-RedBag-open span.yiqian {
+            width: 100%;
+            font-size: 0.6rem;
+            left: 50%;
+            margin-left: -50%;
+            text-align: center;
+        }
+
+        .lz-icon-0 {
+            opacity: 1;
+            background-image: url(./img/zgy-ren.png);
+            background-size: 0.55rem 0.55rem;
+        }
+
+        .lz-icon-8 {
+            opacity: 1;
+            background-image: url(./img/paihang.png);
+            background-size: 0.55rem 0.55rem;
+        }
+
+        .lz-icon-9 {
+            opacity: 1;
+            background-image: url(./img/lxwm.png);
+            background-size: 0.55rem 0.55rem;
+        }
+
+        i {
+            opacity: 0.6;
+        }
+
+        .ranking .lz-ud-text {
+            position: relative;
+        }
+
+        .ranking .lz-ud-text .desc p {
+            padding-top: 5px;
+        }
+
+        .ranking .lz-ud-text .desc p:last-child {
+            color: red;
+        }
+
+        .ranking .lz-ud-text .lz-arrow-right {
+            position: absolute;
+            top: 1rem;
+            right: 0;
+        }
+
+        .ranking {
+            margin-bottom: 0;
+        }
+
+        .ranking .icon-money {
+            float: left;
+            background: url(./img/icon-money.png) no-repeat;
+            background-size: 100%;
+        }
+
+        .lz-urs-detail.ranking li i {
+            opacity: 1;
+            width: 1rem;
+            height: 1.5rem;
+        }
+
+    </style>
+</head>
+<body class="lz-body">
+<!--	<header class="lz-header ">-->
+<!--	   <a onClick="javascript :history.back(-1);" class="lz-back">-->
+<!--	   	<img src="/img/zxx-a.png" class="lz-imga">-->
+<!--	   </a>-->
+<!--	    <p class="lz-urs">个人资料</p>-->
+<!--	</header>-->
+<!--用户信息-->
+<section class="lz-PersonalIncome clearfix positionR">
+    <a href="#"><img src="./img/lz-a.png" style="height:1.65rem;width:1.65rem;" class="lz-headPortrait fl">
+    </a>
+    <div class="clearfix fl lz-urs-information">
+        <a href="#">
+            <div class="fl">
+                <div class="lz-urs-name-wrap clearfix">
+						<span class="lz-urs-name fl">1329****653</span>
+                    <i class="lz-hP-write fl"></i>
+                </div>
+                <div class="lz-urs-id">
+                    ID:30725                </div>
+            </div>
+        </a>
+        <div class="fr positionA lz-total-revenue-wrap alignC">
+            <div class="lz-total-revenue-num">1.00</div>
+            <div class="lz-total-revenue">收益余额</div>
+        </div>
+    </div>
+</section>
+<!--收益细节-->
+<section class="lz-revenue-detail">
+    <ul class="clearfix lz-rd-inner alignC">
+        <li class="fl">
+            <a href="#">
+                <div class="lz-rd-num">1.00</div>
+                <div class="lz-rd-name">今日收益</div>
+            </a>
+        </li>
+        <li class="fl">
+            <a href="#">
+                <div class="lz-rd-num">0.00</div>
+                <div class="lz-rd-name">徒弟收益</div>
+            </a>
+        </li>
+        <li class="fl">
+            <div class="lz-rd-num">1.00</div>
+            <div class="lz-rd-name">总收益</div>
+        </li>
+    </ul>
+</section>
+    <section class="lz-urs-detail ranking" style="">
+        <ul>
+            <li class="clearfix positionR">
+                <a href="#">
+                    <div class="lz-ud-text clearfix">
+                        <i class="icon-money"></i>
+                        <div class="desc">
+                            <p>收徒大比拼</p>
+                            <p>每周收徒前30名额外奖励288-58元</p>
+                        </div>
+                        <span class="fr lz-arrow-right"></span>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+    </section>
+    <!--个人详情-->
+<section class="lz-urs-detail">
+    <ul>
+        <li class="clearfix positionR">
+            <a href="#">
+                <div class="lz-ud-text clearfix">
+                    <i class="lz-icon-8"></i>
+                    <span>排行榜</span>
+                    <span class="fr lz-arrow-right"></span>
+                </div>
+            </a>
+        </li>
+        <!--			<li class="clearfix positionR">-->
+        <!--				<a href="/invite/index">-->
+        <!--					<div class="lz-ud-text clearfix">-->
+        <!--						<i class="lz-icon-2"></i>-->
+        <!--						<span>收徒赚钱</span>-->
+        <!--						<span class="fr lz-arrow-right"></span>-->
+        <!--					</div>-->
+        <!--				</a>-->
+        <!--			</li>-->
+        <li class="clearfix positionR" id="lz-redBag">
+            <div class="lz-ud-text clearfix">
+                <i class="lz-icon-3"></i>
+                <span>每日红包</span>
+                <span class="fr lz-arrow-right"></span>
+            </div>
+        </li>
+        <li class="clearfix positionR">
+            <a href="#">
+                <div class="lz-ud-text clearfix">
+                    <i class="lz-icon-4"></i>
+                    <span>赚钱攻略</span>
+                    <span class="fr lz-arrow-right"></span>
+                </div>
+            </a>
+        </li>
+        <!--			<li class="clearfix positionR">-->
+        <!--				<a href="/apply/index">-->
+        <!--					<div class="lz-ud-text clearfix">-->
+        <!--						<i class="lz-icon-5"></i>-->
+        <!--						<span>我要提现</span>-->
+        <!--						<span class="fr lz-arrow-right"></span>-->
+        <!--					</div>-->
+        <!--				</a>-->
+        <!--			</li>-->
+        <li class="clearfix positionR">
+            <a href="#">
+                <div class="lz-ud-text clearfix">
+                    <i class="lz-icon-6"></i>
+                    <span>app下载</span>
+                    <span class="fr lz-arrow-right"></span>
+                </div>
+            </a>
+        </li>
+        <li class="clearfix positionR">
+            <a href="#">
+                <div class="lz-ud-text clearfix">
+                    <i class="lz-icon-9"></i>
+                    <span>联系我们</span>
+                    <span class="fr lz-arrow-right"></span>
+                </div>
+            </a>
+        </li>
+    </ul>
+</section>
+<footer class="lz-footer">
+    <ul class="clearfix">
+        <li class="fl">
+            <i class="lz-icon-1"></i>
+            <a href="#">赚钱</a>
+        </li>
+        <li class="fl">
+            <i class="lz-icon-2"></i>
+            <a href="#">收徒</a>
+        </li>
+        <li class="fl">
+            <i class="lz-icon-5"></i>
+            <a href="#">提现</a>
+        </li>
+        <li class="fl lz-footer-active">
+            <i class="lz-icon-0"></i>
+            <a href="#">我的</a>
+        </li>
+    </ul>
+</footer>
+<!--弹出层-->
+<div class="lz-RedBag-wrap" style="width: 360px; height: 640px; display: none;">
+    <div class="lz-RedBag-close">
+        <span>签到送红包啦</span>
+    </div>
+    <div class="lz-RedBag-open" style="display:none;">
+        <span class="yiqian"></span>
+        <span class="lz-redBag-x"></span>
+    </div>
+</div>
+<!--弹出层-->
+<script>
+    $(function () {
+        var h = $(window).height();
+        var w = $(window).width();
+        $('.lz-RedBag-wrap').css({width: w, height: h})
+        $('.lz-RedBag-wrap').hide();
+        $('#lz-redBag').click(function () {
+            $('.lz-RedBag-wrap').show();
+            $('.lz-RedBag-close').show();
+        })
+        $('.lz-RedBag-close').click(function () {
+            signin();
+            $(this).hide();
+            $('.lz-RedBag-open').show();
+        })
+        $('.lz-redBag-x').click(function () {
+            $('.lz-RedBag-wrap').hide();
+            $('.lz-RedBag-open').hide();
+            window.location.href = "/home/index";
+        })
+    })
+
+    function signin() {
+        $.post('/login/signin', {time: new Date().getTime()}, function (data) {
+            if (data.status == 200) {
+                $('.yiqian').html(data.msg);
+            } else {
+                $('.yiqian').html(data.msg);
+            }
+        }, 'json');
+    }
+</script>
+<script type="text/javascript" src="./img/script.js"></script>
+
+</body></html>
