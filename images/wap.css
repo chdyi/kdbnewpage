@@ -61,11 +61,8 @@ ul,li { list-style: none; padding: 0; margin: 0}
 .lz-footer {
     margin: 0;
     position: fixed;
-    bottom: 0;
+    bottom: -16px;
     width: 100%;
-    margin-top: 2.14rem;
-    background: red;
-    font-size: 0.45rem;
 }
 .lz-footer ul {
     width: 100%;
@@ -97,13 +94,11 @@ ul,li { list-style: none; padding: 0; margin: 0}
 }
 .lz-footer li i {
     display: inline-block;
-    width: 0.55rem;
-    height: 0.67rem;
+    width: 1.85rem;
+    height: 1.97rem;
     background-position: center;
     background-repeat: no-repeat;
     top: 0.42rem;
-    opacity: 0.6;
-    font-style: italic;
 }
 .lz-footer ul li a {
     display: block;
@@ -114,18 +109,30 @@ ul,li { list-style: none; padding: 0; margin: 0}
 
 .lz-icon-1 {
     background-image: url(../img/lz-d.png);
-    background-size: 0.55rem 0.55rem;
+    background-size: 1.85rem 1.97rem;
+    opacity: 0.6;
 }
 .lz-icon-0 {
     opacity: 1;
     background-image: url(../img/zgy-ren.png);
-    background-size: 0.55rem 0.55rem;
+    background-size: 1.85rem 1.97rem;
 }
 .lz-icon-2 {
     background-image: url(../img/lz-e.png);
-    background-size: 0.55rem 0.55rem;
+    background-size: 1.85rem 1.97rem;
+    opacity: 0.6;
 }
 .lz-icon-5 {
     background-image: url(../img/lz-h.png);
-    background-size: 0.51rem 0.48rem;
+    background-size: 1.85rem 1.97rem;
+    opacity: 0.6;
+}
+
+.lz-footer-active {
+    border-bottom: 0.14rem solid #ffcb40;
+    padding-bottom: 0.4rem!important;
+}
+
+.lz-footer-active a {
+    color: #ffca3f;
 }

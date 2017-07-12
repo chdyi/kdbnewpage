@@ -43,6 +43,134 @@
 			margin:10% auto;
 		}
 	</style>
+	<style type="text/css">
+		.lz-RedBag-close {
+			top: 6rem;
+		}
+
+		.lz-urs-detail {
+			margin-bottom: 1.5rem;
+		}
+
+		.lz-footer {
+			margin: 0;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+
+		.lz-footer ul {
+			width: 100%;
+			background: #fff;
+			display: flex;
+			display: -webkit-flex;
+			justify-content: space-between;
+			-webkit-justify-content: space-between;
+			padding-left: 0.5rem;
+		}
+
+		.lz-footer ul li {
+			width: auto;
+			margin: 0 .45rem;
+			padding: 0.2rem 0 0.2rem;
+		}
+
+		.lz-footer ul li a {
+			display: block;
+			height: 100%;
+		}
+
+		.lz-footer li i {
+			display: inline-block;
+			width: 0.55rem;
+			height: 0.67rem;
+			background-position: center;
+			background-repeat: no-repeat;
+			top: 0.42rem;
+			box-sizing: border-box;
+		}
+
+		.lz-RedBag-open span.yiqian {
+			width: 100%;
+			font-size: 0.6rem;
+			left: 50%;
+			margin-left: -50%;
+			text-align: center;
+		}
+		.lz-icon-1 {
+			background-image: url(./img/lz-d.png);
+			background-size: 0.55rem 0.55rem;
+			opacity: 0.6;
+		}
+		.lz-icon-0 {
+			opacity: 1;
+			background-image: url(./img/zgy-ren.png);
+			background-size: 0.55rem 0.55rem;
+		}
+		.lz-icon-2 {
+			background-image: url(./img/lz-e.png);
+			background-size: 0.55rem 0.55rem;
+			opacity: 0.6;
+		}
+		.lz-icon-5 {
+			background-image: url(./img/lz-h.png);
+			background-size: 0.55rem 0.55rem;
+			opacity: 0.6;
+		}
+		.lz-footer ul li a {
+			display: block;
+			height: 100%;
+			color: #000;
+			text-decoration: none;
+		}
+
+		.lz-footer-active {
+			border-bottom: 0.14rem solid #ffcb40;
+			padding-bottom: 0.4rem!important;
+		}
+
+		.lz-footer-active a {
+			color: #ffca3f;
+		}
+		i {
+			opacity: 0.6;
+		}
+
+		.ranking .lz-ud-text {
+			position: relative;
+		}
+
+		.ranking .lz-ud-text .desc p {
+			padding-top: 5px;
+		}
+
+		.ranking .lz-ud-text .desc p:last-child {
+			color: red;
+		}
+
+		.ranking .lz-ud-text .lz-arrow-right {
+			position: absolute;
+			top: 1rem;
+			right: 0;
+		}
+
+		.ranking {
+			margin-bottom: 0;
+		}
+
+		.ranking .icon-money {
+			float: left;
+			background: url(./img/icon-money.png) no-repeat;
+			background-size: 100%;
+		}
+
+		.lz-urs-detail.ranking li i {
+			opacity: 1;
+			width: 1rem;
+			height: 1.5rem;
+		}
+
+	</style>
 <link rel="stylesheet" href="./img3/layer.css" id="layui_layer_skinlayercss"></head>
 
 <body style="background-color: rgb(245, 245, 245); font-size: 12px;" class="mui-android mui-android-5 mui-android-5-0">
@@ -116,6 +244,29 @@
 	<img src="./img3/api.php">
 	<div>长按复制</div>
 </div>
+
+
+
+<footer class="lz-footer">
+	<ul class="clearfix">
+		<li class="fl">
+			<i class="lz-icon-1"></i>
+			<a href="#">赚钱</a>
+		</li>
+		<li class="fl lz-footer-active">
+			<i class="lz-icon-2"></i>
+			<a href="#">收徒</a>
+		</li>
+		<li class="fl">
+			<i class="lz-icon-5"></i>
+			<a href="#">提现</a>
+		</li>
+		<li class="fl ">
+			<i class="lz-icon-0"></i>
+			<a href="#">我的</a>
+		</li>
+	</ul>
+</footer>
 <script type="text/javascript" src="./img3/layer.js.下载">
 
 </script>
