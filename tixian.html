@@ -6,18 +6,146 @@
 	<title>我要提款</title>
 	<link rel="stylesheet" type="text/css" href="./img2/style.css">
 	<script type="text/javascript" src="./img2/jquery-3.1.1.min.js.下载"></script>
+	<style type="text/css">
+		.lz-RedBag-close {
+			top: 6rem;
+		}
+
+		.lz-urs-detail {
+			margin-bottom: 1.5rem;
+		}
+
+		.lz-footer {
+			margin: 0;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+
+		.lz-footer ul {
+			width: 100%;
+			background: #fff;
+			display: flex;
+			display: -webkit-flex;
+			justify-content: space-between;
+			-webkit-justify-content: space-between;
+			padding-left: 0.5rem;
+		}
+
+		.lz-footer ul li {
+			width: auto;
+			margin: 0 .45rem;
+			padding: 0.2rem 0 0.2rem;
+		}
+
+		.lz-footer ul li a {
+			display: block;
+			height: 100%;
+		}
+
+		.lz-footer li i {
+			display: inline-block;
+			width: 0.55rem;
+			height: 0.67rem;
+			background-position: center;
+			background-repeat: no-repeat;
+			top: 0.42rem;
+			box-sizing: border-box;
+		}
+
+		.lz-RedBag-open span.yiqian {
+			width: 100%;
+			font-size: 0.6rem;
+			left: 50%;
+			margin-left: -50%;
+			text-align: center;
+		}
+		.lz-icon-1 {
+			background-image: url(./img/lz-d.png);
+			background-size: 0.55rem 0.55rem;
+			opacity: 0.6;
+		}
+		.lz-icon-0 {
+			opacity: 1;
+			background-image: url(./img/zgy-ren.png);
+			background-size: 0.55rem 0.55rem;
+		}
+		.lz-icon-2 {
+			background-image: url(./img/lz-e.png);
+			background-size: 0.55rem 0.55rem;
+			opacity: 0.6;
+		}
+		.lz-icon-5 {
+			background-image: url(./img/lz-h.png);
+			background-size: 0.55rem 0.55rem;
+			opacity: 0.6;
+		}
+		.lz-footer ul li a {
+			display: block;
+			height: 100%;
+			color: #000;
+			text-decoration: none;
+		}
+
+		.lz-footer-active {
+			border-bottom: 0.14rem solid #ffcb40;
+			padding-bottom: 0.4rem!important;
+		}
+
+		.lz-footer-active a {
+			color: #ffca3f;
+		}
+		i {
+			opacity: 0.6;
+		}
+
+		.ranking .lz-ud-text {
+			position: relative;
+		}
+
+		.ranking .lz-ud-text .desc p {
+			padding-top: 5px;
+		}
+
+		.ranking .lz-ud-text .desc p:last-child {
+			color: red;
+		}
+
+		.ranking .lz-ud-text .lz-arrow-right {
+			position: absolute;
+			top: 1rem;
+			right: 0;
+		}
+
+		.ranking {
+			margin-bottom: 0;
+		}
+
+		.ranking .icon-money {
+			float: left;
+			background: url(./img/icon-money.png) no-repeat;
+			background-size: 100%;
+		}
+
+		.lz-urs-detail.ranking li i {
+			opacity: 1;
+			width: 1rem;
+			height: 1.5rem;
+		}
+
+	</style>
 </head>
 <body style="background: #f2f2f2;">
 <div class="lbw-header2">
 	<div class="clearfix lbw-left">
 		<div class="fl lbw-record1">我要提现</div>
-		<div class="fr lbw-record"><a href="http://rqtt.laiduihuan.cn/apply/apply_list">提现记录</a></div>
+		<div class="fr lbw-record"><a href="#">提现记录</a></div>
 	</div>
 	<div class="lbw-border lbw-border1" style="right:0;bottom: 0;display: none;"></div>
 	<div class="lbw-border lbw-border2"></div>
 </div>
 <!--end-->
-<a href="http://rqtt.laiduihuan.cn/apply/applymoney" style="display:block;">
+<a href="#" style="display:block;">
 	<div class="lbw-zfb">
 		<div class="clearfix">
 			<div class="fl clearfix">
@@ -38,7 +166,7 @@
 		</div>
 	</div>
 </a>
-<!--<a href="/apply/applyphone">
+<a href="/apply/applyphone">
 	<div class="lbw-zfb">
 		<div class="clearfix">
 			<div class="fl clearfix">
@@ -46,20 +174,19 @@
 						<img src="/images1/lbw-phono.png">
 				</div>
 				<div class="fl lbw-alipay-right">
-					<div>手机充值</div>
+					<div>微信提现</div>
 					<div>最高充100元</div>
 				</div>
-				
+
 			</div>
 			<div class="fr">
 				<div class="lbw-rightimg">
-						<img src="/images1/right.png" />
+						<img src="./img2/right.png" />
 				</div>
 			</div>
 		</div>
 	</div>
-</a>-->
-<!--end-->
+</a>
 <div class="lbw-explain lbw-explain4">
 	<div class="lbw-explain2">
 		<p style="line-height: 0.8rem;">支付时间说明：每周一至周六：当天17点前申请的，当天支付；17点后申请的，第二天支付；周日申请的，周一支付、请加入会员QQ群
@@ -80,6 +207,28 @@
 		</p>
 	</div>
 </div>
+
+
+<footer class="lz-footer">
+	<ul class="clearfix">
+		<li class="fl ">
+			<i class="lz-icon-1"></i>
+			<a href="file:///D:/KDBYM/kdbnewpage/index.html#">赚钱</a>
+		</li>
+		<li class="fl">
+			<i class="lz-icon-2"></i>
+			<a href="file:///D:/KDBYM/kdbnewpage/shoutu.html#">收徒</a>
+		</li>
+		<li class="fl lz-footer-active">
+			<i class="lz-icon-5"></i>
+			<a href="file:///D:/KDBYM/kdbnewpage/tixian.html#">提现</a>
+		</li>
+		<li class="fl">
+			<i class="lz-icon-0"></i>
+			<a href="file:///D:/KDBYM/kdbnewpage/user.html#">我的</a>
+		</li>
+	</ul>
+</footer>
 <div style="background: #f2f2f2;height:4.68rem;width: 100%;"></div>
 <script type="text/javascript" src="./img2/script.js.下载"></script>
 <script src="./img2/js.js.下载"></script>
